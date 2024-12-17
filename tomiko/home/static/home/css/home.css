@@ -1,0 +1,508 @@
+body{
+    background: #011224;
+    font-family: Arial, sans-serif;
+}
+
+header{
+
+}
+
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler{
+background-color: rgb(255, 255, 255);
+}
+
+
+.navbar-fixed-top {
+    position: absolute; /* Устанавливает абсолютное позиционирование */
+    top: 0; /* Располагает меню в верхней части страницы */
+
+    z-index: 1000; /* Устанавливает уровень слоя, чтобы меню было поверх других элементов */
+}
+
+
+
+
+.header-right {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 32px; /* Отступ от верхней части */
+    right: 100px; /* Отступ от правой части */
+    display: flex; /* Используем Flexbox для размещения элементов */
+    align-items: center; /* Центрируем элементы по вертикали */
+}
+
+.header-foot-left{
+    position: absolute; /* Абсолютное позиционирование */
+    top: 730px; /* Отступ от верхней части */
+    left: 100px; /* Отступ от правой части */
+    display: flex;
+}
+
+.modal-body {
+    padding: 0; /* Удаляет отступы чтобы изображение было по центру */
+}
+
+.btn-close {
+    filter: invert(1); /* Инвертирует цвет иконки закрытия на белый */
+}
+
+.btn-primary{
+
+    color: #ffffff;
+    background: linear-gradient(90deg, #0D2F68 0%, #D51117 100%);
+    padding: 16px 70px; /* Увеличивает размер кнопки */
+    border-radius: 50px; /* Скругляет углы кнопки */
+    font-size: 18px; /* Увеличивает размер шрифта (при необходимости) */
+    border: none; /* Убирает рамку (если есть) */
+    cursor: pointer; /* Изменяет курсор на указатель при наведении */
+    transition: background 0.3s; /* Добавляет плавный переход при наведении */
+    margin-left: -170px;
+    margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0A1E4B 0%, #B80E14 100%); /* Изменяет фон при наведении (по желанию) */
+}
+
+
+
+
+
+
+.header-foot{
+    width: 500px
+}
+
+.header-image {
+    width: 40px; /* Ширина изображений, можно изменить по вашему усмотрению */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-left: 10px; /* Отступ между изображениями */
+}
+
+.rock-text {
+    margin-left: 10px; /* Отступ между изображениями и текстом */
+    font-size: 25px; /* Размер шрифта текста "Rock", можно изменить */
+    color: #ffffff; /* Цвет текста, можно изменить */
+    font-family:fantasy
+
+}
+
+.h-auto{
+    display: grid;
+    place-items: center; /* Центрирует элемент по горизонтали и вертикали */
+    position: absolute; /* Устанавливает абсолютное позиционирование */
+    top: 234px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+
+
+
+
+
+
+
+.card-1 {
+    display: grid;
+    place-items: center; /* Центрирует элемент по горизонтали и вертикали */
+    position: absolute; /* Устанавливает абсолютное позиционирование */
+    top: 620px;
+    left: 1200px;
+    background: #081E36;
+    padding: 20px; /* Добавляем отступы внутри карточки */
+    border-radius: 15px; /* Скругляем углы карточки */
+}
+
+.card-header-h {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px; /* Добавляем отступ снизу */
+    font-size: 20px;
+}
+
+.card-header-title {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    font-size: 48px;
+    color: #FD554B; /* Делаем текст красным */
+
+}
+
+.cm-btn {
+    color: #ffffff;
+    background: linear-gradient(90deg, #0D2F68 0%, #D51117 100%);
+    padding: 10px 60px; /* Увеличивает размер кнопки */
+    border-radius: 25px; /* Скругляет углы кнопки */
+    font-size: 14px; /* Увеличивает размер шрифта (при необходимости) */
+    border: none; /* Убирает рамку (если есть) */
+    cursor: pointer; /* Изменяет курсор на указатель при наведении */
+    transition: background 0.3s; /* Добавляет плавный переход при наведении */
+    margin-top: 10px; /* Добавляем отступ сверху для кнопки */
+}
+
+.cm-btn:hover {
+    background: linear-gradient(90deg, #0A1E4B 0%, #B80E14 100%); /* Изменяет фон при наведении (по желанию) */
+}
+
+
+
+
+
+
+
+
+.h-auto2{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 8px;
+    width: 600px;
+}
+
+.calculate-btn {
+    color: #ffffff;
+    background: linear-gradient(90deg, #0D2F68 0%, #D51117 100%);
+    padding: 16px 70px; /* Увеличивает размер кнопки */
+    border-radius: 50px; /* Скругляет углы кнопки */
+    font-size: 18px; /* Увеличивает размер шрифта (при необходимости) */
+    border: none; /* Убирает рамку (если есть) */
+    cursor: pointer; /* Изменяет курсор на указатель при наведении */
+    transition: background 0.3s; /* Добавляет плавный переход при наведении */
+    margin-top: 46px;
+}
+
+.calculate-btn:hover {
+    background: linear-gradient(90deg, #0A1E4B 0%, #B80E14 100%); /* Изменяет фон при наведении (по желанию) */
+}
+
+h1 {
+
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*.main_conteiner{
+
+}*/
+
+
+.card {
+    background-color: #081E36; /* Темно-синий цвет */
+    color: white; /* Цвет текста белый для контраста */
+    border-radius: 25px;
+
+}
+.card img {
+    width: 100%; /* Ширина изображения 100% */
+    height: auto; /* Автоматическая высота */
+    border-radius: 15px;
+}
+.left-card {
+    height: 100%; /* Высота левой карточки */
+}
+.right-card {
+    height: 80%; /* Высота правых карточек меньше на 20% */
+}
+.button-container {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+
+.btn-successs{
+    background-color: rgb(126, 126, 126);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btn-succes {
+    background-color: #D51117; /* Цвет фона кнопки */
+    color: rgb(255, 255, 255); /* Цвет текста кнопки */
+    font-weight: bold; /* Жирный шрифт */
+}
+.btn-succes:hover {
+    background-color: #8d0505; /* Цвет фона при наведении */
+    color: rgb(255, 255, 255); /* Цвет текста кнопки */
+}
+
+.container-fluid2{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tranding-slide-img {
+    width: 899px;
+    height: 768px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end; /* Выровнять изображения по низу */
+}
+
+.tranding-slide-img img {
+    width: 100%;
+    height: auto;
+    scale: 90%;
+}
+
+.tranding-slide {
+    margin-bottom: 10px; /* Уменьшить расстояние между слайдами */
+}
+
+
+
+
+
+#tranding {
+    background-color: #0A1626; /* Цвет фона */
+}
+
+.container2 {
+    padding: 20px;
+}
+
+.tranding-slider {
+    overflow: visible; /* Убедитесь, что слайды выходят за пределы контейнера */
+}
+
+
+
+.tranding-slide:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.tranding-slide-img img {
+    width: 100%;
+    height: auto;
+}
+
+.tranding-slide-content {
+    padding: 15px;
+    color: #fff; /* Цвет текста */
+    text-align: center;
+}
+
+.food-price {
+    font-size: 24px; /* Размер шрифта для цены */
+    color: #FFD700; /* Цвет цены */
+}
+
+.food-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.food-rating span {
+    font-size: 14px;
+    color: #ccc; /* Цвет для рейтинга */
+}
+
+.order-button {
+    background-color: #FF4500; /* Цвет кнопки */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-button:hover {
+    background-color: #FF6347; /* Цвет кнопки при наведении */
+}
+
+/* Стиль для стрелок слайдера */
+.swiper-button-next, .swiper-button-prev {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-container {
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    left: 100px;
+    background-color: transparent;
+    margin-top: 100px;
+
+}
+
+
+.slider-title {
+    position: absolute; /* Абсолютное позиционирование */
+    top: -70px; /* Отступ от верхней части */
+    right: 180px; /* Отступ от правой части */
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ccc;
+    margin: 0; /* Убрать отступы, если они есть */
+
+}
+
+.slider-title2 {
+    position: absolute; /* Абсолютное позиционирование */
+    top: -30px;
+    right: 325px;
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #FD554B;
+    margin: 0; /* Убрать отступы, если они есть */
+
+}
+
+
+.slider {
+    position: relative;
+    width: 100%; /* Растянуть слайдер до всей ширины */
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 10px; /* Расстояние между карточками */
+}
+
+.slide {
+    flex: 0 0 calc(33.33% - 10px); /* Минус пространство между карточками */
+    transition: transform 0.5s ease;
+    position: relative;
+    overflow: hidden; /* Обрезка изображения */
+    margin-left: 160px;
+
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обрезка изображений по размеру карточки */
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.active {
+    transform: scale(1.4); /* Увеличение активного слайда */
+    z-index: 1; /* Показать активный слайд над остальными */
+
+
+
+
+}
+
+.cardActive{
+    background-color: #081E36; /* Темно-синий цвет */
+    color: white; /* Цвет текста белый для контраста */
+    overflow: visible;
+    height:310px;
+
+
+}
+
+
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для текста */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2; /* Показать кнопки навигации над слайдами */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slider-description {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card-header {
+    margin-top: 20px; /* Поднимаем текст вверх */
+    font-size: 1.2em; /* Размер заголовка */
+}
+
+.card-footer {
+    margin-bottom: 30px; /* Можно регулировать по необходимости */
+}
