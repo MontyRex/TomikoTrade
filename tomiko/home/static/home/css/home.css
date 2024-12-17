@@ -1,0 +1,49 @@
+body{
+    background: #011224;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 2.5%;
+    height: 40vh;
+}
+header img {
+    width:80px
+    float: left;
+}
+
+header h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+header ul{list-style: none}
+header ul li {
+    color#fff;
+    display: block:
+    margin-top: 20px;
+    transition: transform .6s ease;
+
+}
+
+header ul li:hover, header ul a:hover{
+    color: grey;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+main .features{
+    float: left;
+    color: white;
+    margin-top:100px;
+    text-align: center;
+    width: 100%;
+}
+
+main .features .h1 {font-size: 50px;}
+main .features p {max-width: 400 px; margin: 20px auto}
+
+
+
+
+
+
